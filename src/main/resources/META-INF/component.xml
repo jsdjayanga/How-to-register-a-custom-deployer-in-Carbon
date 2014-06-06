@@ -1,0 +1,11 @@
+<component xmlns="http://products.wso2.org/carbon">
+    <deployers>
+        <deployer>
+            <directory>sample</directory>
+            <extension>xml</extension>
+            <class>
+                org.wso2.carbon.samples.deployer.CustomDeployer
+            </class>
+        </deployer>
+    </deployers>
+</component>
